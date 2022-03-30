@@ -1,0 +1,1 @@
+package uz.coder.daggerhilt.nerworkingimport retrofit2.Responseimport retrofit2.http.GETimport uz.coder.daggerhilt.models.Usersinterface ApiService {    @GET("users")    suspend fun getUsers():Response<List<Users>>}
