@@ -22,4 +22,9 @@
         android:name="uz.coder.daggerhilt.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="uz.coder.daggerhilt.ui.news.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
 </navigation>
