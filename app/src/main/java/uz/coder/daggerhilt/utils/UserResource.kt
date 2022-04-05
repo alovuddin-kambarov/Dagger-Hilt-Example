@@ -1,1 +1,1 @@
-package uz.coder.daggerhilt.utilsimport uz.coder.daggerhilt.database.entity.UserEntitysealed class UserResource {    object Loading : UserResource()    data class Success(val list: List<UserEntity>): UserResource()    data class Error(val message: String): UserResource()}
+package uz.coder.daggerhilt.utilsimport uz.coder.daggerhilt.database.entity.NewsEntitysealed class UserResource {    object Loading : UserResource()    data class Success(val list: List<NewsEntity>): UserResource()    data class Error(val message: String): UserResource()}
